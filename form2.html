@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form 2</title>
+    <style>
+        h1{
+            margin-top: 14px;
+        }
+        body {
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+        span{
+            font-size: 12px;
+        }
+
+        body input {
+            border:1px solid gainsboro;
+            border-radius: 3px;
+        }
+
+        div.container {
+            flex-direction: column;
+            display: flex;
+            /* border: 2px solid black; */
+            height: 900px;
+            max-width: 60%;
+            /* justify-content: center; */
+            /* align-items: center;  */
+            margin: 10px auto;
+            border-radius: 4px;
+            border-top: 4px solid rgb(16, 76, 187);
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            box-shadow: 2px 2px 5px black;
+
+        }
+
+        div.content {
+            margin-left: 15px;
+            /* border: 2px solid red; */
+            height: 850px;
+            width: 95%;
+            margin: auto;
+        }
+
+        .card input {
+            width: 99%;
+            height: 30px;
+            margin-top: 6px;
+
+        }
+
+        div.details {
+            margin-top: 30px;
+            /* position: relative; */
+        }
+       
+            
+        
+
+        .details label {
+            margin: 0px 177px 0px 0px;
+        }
+
+        .details input {
+            /* width: 99%; */
+            /* position:absolute; */
+            height: 30px;
+            margin: 10px 38px 0px 0px;
+        }
+
+        div.name {
+            margin-top: 30px;
+        }
+
+        
+
+        .name input {
+            height: 30px;
+            /* margin: 6px 12px 0px 0px; */
+        }
+
+        #lastname {
+            margin-top: 10px;
+            margin-left: 12px;
+            width: 338px;
+
+        }
+
+        #name {
+            margin-top: 10px;
+            margin-left: 0px;
+            width: 340px;
+        }
+     .llname{
+         margin-left:218px ;
+     }
+     div.add1{
+        margin-top: 30px;
+
+     }
+     div.add2{
+        margin-top: 30px;
+
+     }
+     .add1 input {
+         margin-top: 10px;
+         width: 99%;
+            height: 30px;
+
+     }
+     .add2 input{
+         margin-top: 10px;
+         width: 99%;
+            height: 30px;
+     }
+     div.details2{
+         margin-top: 30px;
+     }
+     #month{
+         margin-left: 0px;
+         width: 177px;
+
+     }
+     #year{
+         /* margin-left: -12px; */
+         width: 178px;
+
+     }
+     #CVV{
+         /* margin-left: 15px; */
+         width: 178px;
+
+     }
+
+
+
+
+     #city {
+         height: 30px;
+         margin-top: 10px;
+            margin-left: 0px;
+            width: 340px;}
+     
+     #state {
+         height: 30px;
+         margin-top: 10px;
+            margin-left: 12px;
+            width: 338px;
+            
+
+        }
+        .state{
+            margin-left: 268px;
+        }
+
+     #zip {
+         height: 30px;
+         margin-top: 10px;
+            margin-left: 0px;
+            width: 340px;}
+     
+     #country {
+         height: 27px;
+         margin-top: 10px;
+            margin-left: 12px;
+            width: 338px;
+            
+
+        }
+        .country{
+            margin-left: 235px;
+        }
+        div.details3{
+         margin-top: 30px;
+     }
+      .btn{
+          margin-top: 30px;
+          height: 35px;
+          width:208px;
+          border-radius: 5px;
+          color: whitesmoke;
+          background-color: rgb(0, 210, 105);
+          border:none;
+          font-size: 15px;
+          font-weight: bold;
+
+      }
+      .btn:hover{
+          background-color: rgb(0, 179, 89) ;
+      }
+     
+
+        
+        
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Charigify</h1>
+            <div class="card">
+               
+                <label for="cardnumber">Card number</label><br>
+                <input type="text" name="cardnumber" id="cardnumber" autofocus>
+            </div>
+            <div class="details">
+                <label for="month" class="month">Month</label>
+                <label for="year" class="year">Year</label>
+                <label for="CVV" class="CVV">CVV<span class="op">(optional)</span></label><br>
+                <input type="text" id="month">
+                <input type="text" id="year">
+                <input type="text" id="CVV">
+            </div>
+            <div class="name">
+                <label class="lname"  for="name">First name <span class="op">(optional)</span></label>
+                <label class="llname" for="lastname">Last name <span class="op">(optional)</span></label><br>
+                <input type="text" id="name">
+                <input type="text" id="lastname">
+            </div>
+            <div class="add1">
+                <label for="address1">Address <span class="op">(optional)</span></label><br>
+                <input type="text" id="address1">
+
+            </div>
+            <div class="add2">
+                <label for="address2">Address 2 <span class="op">(optional)</span></label><br>
+                <input type="text" id="address2">
+
+            </div>
+            <div class="details2">
+                <label for="city">City <span class="op">(optional)</span></label>
+                <label for="state" class="state">State <span class="op">(optional)</span></label><br>
+                <input type="text" id="city">
+                <input type="text" id="state">
+            </div>
+            <div class="details3">
+                <label for="zip">Zip code <span class="op">(optional)</span></label>
+                <label for="country" class="country">Country <span class="op">(optional)</span></label><br>
+                <input type="text" id="zip">
+                <input type="text" id="country">
+            </div>
+            <div><button class="btn">Submit Host Form</button></div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

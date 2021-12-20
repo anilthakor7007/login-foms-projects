@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html form 3</title>
+
+ <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="content">
+        <div id="yourdetails">
+            <h2>Step 1: Your details</h2>
+            <div class="box">
+               <label for="name">Name</label>
+               <input class="text" type="text" name="name" id="name" placeholder="First and last name">
+            </div>
+            <div class="box">
+                <label for="email">Email</label>
+               <input  class="text" type="text" name="email" id="email" placeholder="example@domain.com">
+            </div>
+            <div class="box">
+                <label for="phone">Phone</label>
+               <input class="text" type="text" name="phone" id="Phone">
+            </div>
+        </div>
+
+        <div id="address">
+            <h2>Step 2: Delivery address</h2>
+            <div class="addbox">
+                <label for="addr">Address</label>
+              <textarea name="address" id="addr" cols="35" rows="6"> </textarea>
+            </div>
+            <div class="post">
+                <label for="postcode">Post code</label>
+                <input class="text" type="text" name="post code" id="postcode">
+            </div>
+            <div class="post">
+                <label for="country">country</label>
+                <input class="text" type="text" name="country" id="country">
+            </div>
+        </div>
+        <div id="carddetails">
+            <h2>Step 3: Card details</h2>
+            <div class="cardtype">
+                <span>Card type</span><br>
+                <label for="visa">Visa</label>
+                <input class="khincho" type="checkbox" name="visa" id="visa">
+                <label for="amex">AmEx</label>
+                <input class="khincho" type="checkbox" name="amex" id="amex">
+                <label for="Mastercard">Mastercard</label>
+                <input class="khincho" type="checkbox" name="mastercard" id="mastercard">
+            </div>
+            <div class="other">
+                <label for="number">Card number</label>
+                <input class="text" type="text" name="number" id="number">
+            </div>
+            <div class="other">
+                <label for="security">Security code</label>
+                <input class="text" type="text" name="security code" id="security">
+            </div>
+            <div class="other">  
+                 <label for="nameofcard">Name of card</label>
+                <input class="text" type="text" name="nameofcard" id="nameofcard" placeholder="Exact name as on the card">
+            </div>
+        </div>
+        <div ><button class="btn">BUY IT!</button></div>
+   
+    </div>
+    </div> 
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+}
+
+input.text {
+    margin-left: 113px;
+    height: 26px;
+    width: 252px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+label {
+    margin-left: 10px;
+    font-weight: bold;
+}
+#name{
+text-align: center;
+}
+#email {
+    text-align: center;
+    margin-left: 117px;
+}
+
+#postcode {
+    margin-left: 89px;
+}
+
+#country {
+    margin-left: 103px;
+}
+
+#number {
+    margin-left: 61px;
+}
+
+#security {
+    margin-left: 61px;
+}
+
+#nameofcard {
+    margin-left: 61px;
+}
+
+#addr {
+    margin-left: 100px;
+    border-radius: 2px;
+    margin-top: 4px;
+}
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+div.container {
+    display: flex;
+    width: 45%;
+    height: 820px;
+    /* border: 2px solid black; */
+    justify-content: center;
+    margin: auto;
+    border-radius: 4px;
+    background-color: #92d607db;
+}
+
+#content {
+    display: flex;
+    /* border: 2px solid red; */
+    height: 800px;
+    width: 95%;
+    margin: 17px auto;
+    flex-direction: column;
+}
+
+div.box {
+    margin-top: 5px;
+    border: 2px solid white;
+    height: 36px;
+    width: 99%;
+    background-color: #ffffff69;
+    border-radius: 4px;
+}
+
+.addbox {
+    margin-top: 10px;
+    border: 2px solid white;
+    height: 106px;
+    width: 99%;
+    background-color: #ffffff69;
+    border-radius: 4px;
+}
+
+div.post {
+    margin-top: 5px;
+    border: 2px solid white;
+    height: 36px;
+    width: 99%;
+    background-color: #ffffff69;
+    border-radius: 4px;
+}
+
+.cardtype {
+    margin-top: 10px;
+    border: 2px solid white;
+    height: 76px;
+    width: 99%;
+    background-color: #ffffff69;
+    border-radius: 4px;
+}
+
+div.other {
+    margin-top: 5px;
+    border: 2px solid white;
+    height: 36px;
+    width: 99%;
+    background-color: #ffffff69;
+    border-radius: 4px;
+}
+
+#visa {
+    margin-left: 10px;
+}
+
+#amex {
+    /* margin-left: 10px; */
+}
+
+#mastercard {
+    /* margin-left: 10px; */
+}
+
+.khincho {
+    margin: 15px 87px -30px 4px;
+}
+#nameofcard{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    border:none;
+    border-radius: 23px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 31px auto;
+    height: 32px;
+    width: 126px;
+    color: whitesmoke;
+    background-color: rgb(38, 56, 1);
+}
